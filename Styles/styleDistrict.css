@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.district-main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../Res/images/dis-bg.jpg");
+  background-size: cover;
+}
+
+.main-mask {
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-y: scroll;
+}
+
+.card {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: white !important;
+  backdrop-filter: blur(3px);
+  transition: 0.2s ease-in-out !important;
+}
+
+.card img {
+  filter: grayscale(60);
+  transition: 0.2s ease-in-out !important;
+}
+
+.card:hover img {
+  filter: none;
+  transition: 0.2s ease-in-out !important;
+}

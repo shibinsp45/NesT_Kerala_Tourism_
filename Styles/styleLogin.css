@@ -1,0 +1,64 @@
+.login-main {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url("../Res/images/Cover/alappuzha.jpg");
+  background-size: cover;
+}
+
+.main-mask {
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  z-index: 1;
+  position: absolute !important;
+  top: 10px;
+  width: 100%;
+}
+
+.container {
+  height: 600px;
+  width: 500px;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+}
+
+.container-left {
+  background-image: url("../Res/images/Cover/login-left.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+}
+
+.container-right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.container-right form {
+  width: 80%;
+}
+
+.container-right a {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.btn-container {
+  width: 150px;
+}
